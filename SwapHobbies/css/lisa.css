@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(#5c1c34, #3e2f63, #4f53a2, #e5751f,#f6d240, #fff,lightblue, blue, darkblue);
+    color:snow;
+}
+
+header 
+{
+    text-align: center;
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+div
+{
+    color: snow;
+
+}
+ul 
+{
+    word-spacing: 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4f53a2;
+}
+ol
+{
+    letter-spacing: normal;
+    color: #3e2f63;
+}
+
+li
+{
+    padding: 10px;
+    float: left;
+}
+
+a
+{
+    color:rgb(132, 34, 34);
+    text-align: center;
+}
+
+li a
+{
+    display: inline;
+    padding: 8px;
+    background-color: #4f53a2;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+section
+{
+    text-align: left;
+    border-radius: 15px;
+    border-style: groove;
+    font-weight: bold;
+}
+
+
+
+details
+{
+    text-align: left;
+    background-attachment: fixed;
+}
+
+summary
+{
+    text-align: left;
+}
+
+h1
+{
+    text-align: left;
+
+}
+
+footer
+{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.s1
+{
+    color:white;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+
+}
+.s2
+{
+    color: purple;
+    text-shadow: 2px 4px white;
+    letter-spacing: 7px;
+
+}
+.s3
+{
+    color:black;
+    word-spacing: 15px;
+    text-transform:lowercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-left: 50px;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-35%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+  
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}

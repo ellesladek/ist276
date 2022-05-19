@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Melee's Competitive Scene</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/competitive.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="./gods.html">The 5 Gods</a></li>
+				<li><a href="./competitive.html">Competitive Scene</a></li>
+				<li><a href="./index.html">Home</a></li>
+			</ul>
+		</nav>
+		
+		<h1>The Competitive Scene</h1>
+	</header>
+	
+	<p>Melee is widely known for its large and intricate tournament scene. 
+	The birth of the tournament scene occurred with the creation of the Tournament Go series in 2002. 
+	Melee has since been featured in the championships of many grand-scale fighting game tournaments, such as Major League Gaming in 2004, 2005, 2006, and 2014, and EVO in 2007 and from 2013 to 2018.
+	The community has constructed a set of standard tournament rules to regulate tournament play. 
+	While rulesets may vary between different tournaments, generally universal gameplay rules include all matches being played via timed stock (four stocks and eight minutes), and restrictions on legal stages. 
+	These regulations are enacted to ensure that gameplay at the highest level remains fair and interesting.</p>
+	
+	<br>
+
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 8</div>
+	  <img src="img/competitive/t1.png" style="width:50%">
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 8</div>
+	  <img src="img/competitive/t8.jpg" style="width:50%">
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 8</div>
+	  <img src="img/competitive/t4.jpg" style="width:59%">
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">4 / 8</div>
+	  <img src="img/competitive/t5.jpg" style="width:59%">
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">5 / 8</div>
+	  <img src="img/competitive/t2.png" style="width:59%">
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">6 / 8</div>
+	  <img src="img/competitive/t6.jpg" style="width:50%">
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">7 / 8</div>
+	  <img src="img/competitive/t7.jpg" style="width:59%">
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">8 / 8</div>
+	  <img src="img/competitive/t3.jpg" style="width:50%">
+	</div>
+
+</div>
+	
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+	</div>
+
+<script>
+	let slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 3000); // Change image every 2 seconds
+	}
+</script>
+
+</body>
+</html>

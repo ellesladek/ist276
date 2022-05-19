@@ -1,0 +1,73 @@
+img {
+	height: 200px; 
+	width: 325px;
+	padding: 40px;
+}
+
+body {
+	font-family: "Arial", "sans-serif";
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+	color: #00ff80;
+	text-decoration: underline;
+}
+
+header {
+	text-align: center;
+	font-size: 32px;
+	font-family: "Courier New", "monospace";
+	font-weight: bold;
+}
+
+em {
+	font-family: "Brush Script MT", "Brush Script Std", "cursive";
+	color: #00ff80;
+}
+
+div {
+	font-size: 18px;
+	border: 2px dotted #0080ff;
+	border-radius: 20px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	padding: 5px;
+	margin-left: 25px;
+}
+
+a {
+	color: #00ffff;
+	cursor: pointer;
+}
+
+section {
+	border: 8px double #0080ff;
+	border-radius: 20px;
+	margin: 15px;
+	padding-left: 35px;
+}
+
+details {
+	font-size: 18px;
+	padding-right: 25px;
+	text-shadow: 0 0 10px #00ffff;
+}
+
+summary {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+footer {
+	font-size: 16px;
+	font-style: italic;
+}
+

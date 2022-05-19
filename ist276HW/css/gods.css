@@ -1,0 +1,57 @@
+p {
+	text-align: center;
+}
+
+button {
+    background-color: #F6CF57;
+    border: 4px double black;
+    color: black;
+    text-align: center;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+#description {
+	font-weight: bold;
+	width: 90%;
+	margin-left: auto;
+	Margin-right: auto;
+}
+
+#buttons {
+    text-align: center;
+    float: left;
+    width: 15%;
+    border: 5px solid white;
+    color: firebrick;
+	padding: 15px;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+#topic {
+    text-align: center;
+    float: right;
+    width: 60%;
+    border: 10px double darkred;
+	margin-right: 80px;
+	margin-top: 10px;
+}
+
+@media (max-width: 1050px) {
+	#buttons {
+		float: none;
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#topic {
+		float: none;
+		border: none;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+

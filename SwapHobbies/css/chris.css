@@ -1,0 +1,90 @@
+header {
+	 text-align: center;
+	 font-size: 40px;
+	 font-family: "Courier New", monospace;
+	 border: 3px solid green;
+}
+body {
+  background-color: darkgrey;
+}
+
+div {
+	text-indent: 10px;
+	line-height: 2.0;
+}
+
+ul {
+	color: firebrick;
+}
+
+li {
+	 font-size: 17px;
+}
+
+a {
+	color: firebrick;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: black;
+}
+
+#s1{
+	 border: 3px solid green;
+}
+
+#s2{
+	 border: 3px solid green;
+}
+
+#s3{
+	 border: 3px solid green;
+}
+
+details{
+	 font-size: 22px;
+	 font-family: "Papyrus", fantasy;
+}
+
+summary{
+	 font-size: 22px;
+	 font-family: "Papyrus", fantasy;
+}
+
+h1 {
+  color: firebrick;
+  font-size: 30px;
+  font-family: "Copperplate", fantasy;
+}
+
+h2 {
+  color: firebrick;
+  font-size: 30px;
+  font-family: "Copperplate", fantasy;
+}
+
+h3 {
+  color: firebrick;
+  font-size: 30px;
+  font-family: "Copperplate", fantasy;
+}
+
+.img-bball{
+	width:325px;
+	height:325px;
+}
+
+.img-xbox{
+	width:325px;
+	height:325px;
+}
+
+.img-music{
+	width:450px;
+	height:325px;
+}
+
+footer{
+	 text-align: center;
+	 font-size: 20px;
+	 font-family: "Courier New", monospace;
+}

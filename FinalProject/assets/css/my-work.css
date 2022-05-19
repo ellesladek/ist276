@@ -1,0 +1,32 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 55% 35%;
+	justify-content: center;
+}
+
+.grid-column-1 {
+	display: grid;
+	color: #fbf7f7;
+	background-color:#7d6969;
+	padding: 30px;
+	margin-right: 5%;
+}
+
+.grid-column-2 {
+	display: grid;
+	color: #fbf7f7;
+	background-color:#384143;
+	padding: 30px;
+	margin-left: 5%;
+}
+
+.grid-column-2 a {
+	color:#8ed1fc;
+	text-decoration: none;
+}
+
+.grid-container h1 { 
+	text-align: center;
+	text-decoration: underline;
+}
+

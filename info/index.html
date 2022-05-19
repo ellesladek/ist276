@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elle's JS Info</title>
+	<link href="css/info.css" rel="stylesheet">
+	
+	<script>
+        function changeTopic(animal)
+            {
+                let info = document.getElementById("topic");
+                info.innerHTML = "<h2>" + titles[animal] + "</h2>" +
+                    "<img src='./img/" + img[animal]+ "' alt='animal picture " + (animal+1) + "' style='height: 275px;'/>" + "<p>" + baby[animal] + "</p>"
+            }
+
+        const img = ["puppy.jpg","kitten.jpg","calf.jpg","cub.jpg","foal.jpg"]
+
+        const titles = ["Puppy", "Kitten", "Calf", "Cub", "Foal"]
+
+        const baby = ["Baby dogs are called puppies! Puppies are born blind and hairless. Their eyes will open at about 8 to 14 days old, and they will stand up at about 15 days old. They are usually able to walk about by 21 days old.", 
+		"Baby cats are called kittens! The avereage kitten litter is 1 to 9 kittens. Kittens can't see or hear fully until they are 2 to 3 weeks old, and all kittens are born with blue eyes. They sleep about 18 hours a day.", 
+		"Baby cows are called calves! Calves weigh approximately 60 to 100 pounds at birth. Within an hour of birth, they stand, walk, and nurse. Calves drink about 1 gallon of milk per day.", 
+		"Baby bears are called cubs! Bears have anywhere from 1 to 5 cubs at a time, with 2 being the most common number. Cubs are born hairless and helpless and require constant care for the first several weeks of life. Some bear cubs will continue to nurse until they are 3 years old.", 
+		"Baby horses are called foals! When born, a foal's legs are 80% to 90% fully grown, and they can stand up within 2 hours after their birth. They are ususally born without teeth."]
+    </script>
+</head>
+
+<header>
+    <h1>Elle Sladek's Baby Animals</h1>  
+    <p>On this page, you will learn facts about various baby animals! Just click on an animal listed on the left to find out more about them.</p>
+</header>
+
+<body onload="changeTopic(0)">
+    <div id="button">
+        <h2>Choose an Animal!</h2>
+        </br>
+            <button onclick="changeTopic(0)">Dog</button>
+        </br>
+            <button onclick="changeTopic(1)">Cat</button>
+        </br>
+            <button onclick="changeTopic(2)">Cow</button>
+        </br>
+            <button onclick="changeTopic(3)">Bear</button>
+        </br>
+            <button onclick="changeTopic(4)">Horse</button>
+    </div>
+
+    <div id="topic">
+
+    </div>
+        
+</body>
+</html>

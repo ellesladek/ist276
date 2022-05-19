@@ -1,0 +1,22 @@
+
+body {
+	background-color: pink;
+}
+
+div {
+	background-color: #FDD7E4; 
+	border: 3px solid #E56E94; 
+	border-radius: 7px; 
+	padding: 7px;
+}
+
+h1 {
+	color: #C25A7C; 
+	background-color: #FDD7E4; 
+	text-align: center;
+} 
+
+h2 {
+	color: #C25A7C; 
+	text-decoration: underline;
+}
